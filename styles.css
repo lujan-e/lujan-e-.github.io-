@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.sliders {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    transition: background-color 0.3s ease;
+}
+
+.color-preview p {
+    margin-bottom: 10px;
+}
