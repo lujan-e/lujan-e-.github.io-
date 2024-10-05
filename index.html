@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajustar Color RGB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ajusta el color de fondo (RGB)</h1>
+        <div class="sliders">
+            <label for="red">Rojo</label>
+            <input type="range" id="red" name="red" min="0" max="255" value="255">
+            <span id="red-value">255</span>
+
+            <label for="green">Verde</label>
+            <input type="range" id="green" name="green" min="0" max="255" value="255">
+            <span id="green-value">255</span>
+
+            <label for="blue">Azul</label>
+            <input type="range" id="blue" name="blue" min="0" max="255" value="255">
+            <span id="blue-value">255</span>
+        </div>
+        <div class="color-preview">
+            <p>Color de fondo actual:</p>
+            <div id="color-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
